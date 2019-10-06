@@ -1,0 +1,20 @@
+---
+layout: style
+---
+
+section div div p img {
+   height: 200px;
+   width: auto;
+   float: right;
+   margin-left: 30px;
+}
+
+section div div p {
+   text-align: justify;
+   min-width: 150px
+}
+
+section div div ul li {
+   text-align: justify;
+   min-width: 150px
+}

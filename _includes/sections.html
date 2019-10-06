@@ -1,0 +1,5 @@
+{% assign allsections = site.sections | sort: "order" %}
+{% for section in allsections %}
+{% if section.include %}{% assign inc = section.include %}{% else %}{% assign inc = "section.html" %}{% endif %}
+{% include {{ inc }} title=section.title permalink=section.permalink content=section.content class=section.class %}
+{% endfor %}

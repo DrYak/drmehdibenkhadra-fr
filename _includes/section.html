@@ -1,0 +1,15 @@
+<!-- {{ include.title }} Section -->
+{% if include.class %}
+<section id="{% if include.permalink %}{{ include.permalink }}{% else %}{{ include.title | slugify }}{% endif %}" class="content-section text-center">
+<div class="{{ include.class }}">
+<div class="container">
+<div class="col-lg-8 col-lg-offset-2">
+{{ include.content | markdownify }}
+</div>
+{% else %}<section id="{% if include.permalink %}{{ include.permalink }}{% else %}{{ include.title | slugify }}{% endif %}" class="container content-section text-center">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+{{ include.content | markdownify }}
+{% endif %}    </div>
+</div>
+</section>

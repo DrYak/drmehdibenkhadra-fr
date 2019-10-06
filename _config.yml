@@ -1,0 +1,31 @@
+author: Dr. Mehdi Benkhadra
+title: Dr. Mehdi Benkhadra
+email: contact@drmehdibenkhadra.fr
+description: > # this means to ignore newlines until "baseurl:"
+  Traitement de la calvitie
+url: "https://drmehdibenkhadra.fr" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+timezone: Europe/Zurich
+
+color:
+  primary-dark: '#000000'
+  links: '#c2ae8c'
+  intro-bg: '#c2ae8c'
+  intro-fg: '#1c2251'
+
+# Footer settings
+footer: Dr. Mehdi Benkhadra
+
+# Build settings
+markdown:   kramdown
+permalink:  pretty
+
+collections:
+  - sections
+
+# Google Analytics
+#google_analytics: UA-126950686-1
+
+plugins:
+  - jekyll-sitemap
+#  - jekyll-remote-theme
