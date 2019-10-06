@@ -4,7 +4,7 @@ email: contact@drmehdibenkhadra.fr
 description: > # this means to ignore newlines until "baseurl:"
   Traitement de la calvitie
 url: "https://drmehdibenkhadra.fr" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/drmehdibenkhadra-fr" # the subpath of your site, e.g. /blog
 timezone: Europe/Zurich
 
 color:
