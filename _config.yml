@@ -29,3 +29,4 @@ google_analytics: UA-149542574-1
 plugins:
   - jekyll-sitemap
 #  - jekyll-remote-theme
+  - jekyll-seo-tag
