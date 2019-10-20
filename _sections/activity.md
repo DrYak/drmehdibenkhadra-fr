@@ -20,7 +20,7 @@ order: 0
 
 - Stimulation du cuir chevelu.
 
-- Réparation sourcils (microblading, dermopigmentation) 
-et moustache / barbe (dermopigmentation).
+- Réparation sourcils (microblading, dermopigmentation)
+  et moustache / barbe (dermopigmentation).
 
 Toutes mes interventions sans exception sont réalisées sous anesthésie locale

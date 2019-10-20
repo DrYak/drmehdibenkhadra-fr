@@ -19,9 +19,9 @@ order: 1
 
 - Diplôme Inter-Universitaire Européen de Traitement de la Calvitie
 
-- Formation Excellence Cosmetic: pigmentation du cuir chevelu
+- Formation Excellence Cosmetic : pigmentation du cuir chevelu
 
-- Formation: reconstruction des sourcils (microbladding, dermopigmentation)
+- Formation : reconstruction des sourcils (microbladding, dermopigmentation)
 
 - Docteur en Sciences (Université de Bourgogne)
 
