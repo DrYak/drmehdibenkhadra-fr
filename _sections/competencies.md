@@ -7,7 +7,7 @@ order: 1
 
 ## {{ page.description }}
 
-![compétences](img/competencies.jpg)
+### ![compétences](img/competencies.jpg)
 
 - Docteur en Médecine (Université de Bourgogne)
 

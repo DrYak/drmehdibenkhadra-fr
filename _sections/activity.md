@@ -8,7 +8,6 @@ order: 0
 ## {{ page.description }}
 
 - Greffe de cheveux par méthode FUE,
-
   les autres techniques (bandelettes, détonsuration sont
   réservées aux chirurgiens spécialisés en chirurgie
   plastique et maxillo-faciale, et doivent être réalisées

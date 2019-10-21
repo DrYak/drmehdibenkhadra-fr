@@ -2,14 +2,45 @@
 layout: style
 ---
 
-section div div p img {
-   height: 200px;
-   width: auto;
-   float: right;
-   margin-left: 30px;
+header > div > img {
+	height: 200px;
+	width: auto;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	position: relative;
+	bottom: 0px;
+	right: 0px
 }
 
-section div div p, section div div ul li {
+@media(min-width:768px) {
+	header > div > img {
+		height: 300px;
+		float: right;
+		position: absolute;
+		bottom: 30px;
+		right: 30px
+	}
+}
+
+section h3 > img {
+	height: 200px;
+	width: auto;
+}
+
+@media(min-width:512px) {
+	section h3 > img {
+		float: right;
+		margin-left: 30px;
+	}
+}
+
+section div > p {
    text-align: justify;
-   min-width: 150px
+   min-width: 150px;
+}
+
+section li > p {
+   text-align: left;
+   min-width: 150px;
 }

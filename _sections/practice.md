@@ -7,7 +7,7 @@ order: 3
 
 ## {{ page.description }}
 
-![cabinet](img/practice.jpg)
+### ![cabinet](img/practice.jpg)
 
 **Discrétion :** 
 idéalement situé, au sein du Parc Tertiaire du Cap Vert, à Quetigny,
