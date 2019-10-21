@@ -16,6 +16,10 @@ color:
 # Footer settings
 footer: Dr. Mehdi Benkhadra
 
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/mehdi-benkhadra-md-phd-574819196/
+
 # Build settings
 markdown:   kramdown
 permalink:  pretty

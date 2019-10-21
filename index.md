@@ -1,6 +1,6 @@
 ---
 layout: default
-locale: fr_FR
+lang: fr
 image: img/intro-bg.png
 ---
 

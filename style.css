@@ -9,12 +9,7 @@ section div div p img {
    margin-left: 30px;
 }
 
-section div div p {
-   text-align: justify;
-   min-width: 150px
-}
-
-section div div ul li {
+section div div p, section div div ul li {
    text-align: justify;
    min-width: 150px
 }
