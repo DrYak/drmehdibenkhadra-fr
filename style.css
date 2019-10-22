@@ -2,6 +2,25 @@
 layout: style
 ---
 
+/*
+ * Font from https://blogfonts.com/copperplatetmed.font
+ * Converted with Font Squirrel (https://www.fontsquirrel.com)
+ */
+@font-face {
+	font-family: 'copperplatetmedregular';
+	src:	url('css/copperplatetmed-webfont.woff2') format('woff2'),
+		url('css/copperplatetmed-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1.brand-heading, p.intro-text {
+	font-family: 'copperplatetmedregular', 'Balthazar', serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+
 header > div > img {
 	height: 200px;
 	width: auto;

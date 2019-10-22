@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Dr. Mehdi Benkhadra, MD, PhD
+N:Benkhadra;Mehdi;;Dr.;MD, PhD
+PHOTO;VALUE=URI;TYPE=JPEG:https://drmehdibenkhadra.fr/img/header.jpg
+ORG:Traitement de la calvitie
+TITLE;CHARSET=UTF-8:Médecin
+EMAIL;type=WORK,INTERNET:contact@drmehdibenkhadra.fr
+TEL;TYPE=WORK,VOICE:+33-9-80-45-98-14
+ADR;TYPE=WORK:;;14 Rue du Cap Vert;Quetigny;;21800;France
+URL;type=WORK:https://drmehdibenkhadra.fr/
+LOGO;VALUE=URI;TYPE=PNG:https://drmehdibenkhadra.fr/img/intro-bg.png
+REV:2019-10-22T01:00:00.000Z
+END:VCARD

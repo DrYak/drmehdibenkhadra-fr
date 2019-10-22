@@ -23,5 +23,7 @@ Vous pouvez me contactez :
 - <span><i></i>{: .fa .fa-envelope}</span>{: .fa-li}
   Par courriel : [{{ site.email }}](mailto:{{ site.email }})
 
+- <span><i></i>{: .fa .fa-address-card}</span>{: .fa-li}
+  Carnet d'addresses : [Ajouter le contact](drmehdibenkhadra.vcf)
 
 {% include social.html %}
