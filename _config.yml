@@ -1,12 +1,30 @@
 author: Dr. Mehdi Benkhadra
 title: Dr. Mehdi Benkhadra, MD, PhD
 email: contact@drmehdibenkhadra.fr
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "url:"
   Traitement de la calvitie
+  - Greffe de cheveux
+  - Dijon 
 url: "https://drmehdibenkhadra.fr" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/drmehdibenkhadra-fr" # the subpath of your site, e.g. /blog
+# the subpath of your site, e.g. /blog
+baseurl: "/drmehdibenkhadra-fr"
+# currently left on this default so the Github Pages preview works
+# use the " -b '' " parameter to use as a a root-website, e.g.:
+#  - for serving on the local network as a root-website:
+#    > bundle exec jekyll serve -H 0.0.0.0 -b ''
+#  - for build the release for root on the domain:
+#    > JEKYLL_ENV=production bundle exec jekyll build -d _upload -b ''
 logo: "/img/intro-bg.png"
-timezone: Europe/Zurich
+timezone: Europe/Paris
+
+address:
+  streetAddress: "14 Rue du Cap Vert"
+  postalCode: "21800"
+  addressLocality: "Quetigny"
+  addressCountry: "fr"
+
+phone: "+33-9-80-45-98-14"
+
 
 color:
   primary-dark: '#000000'
@@ -33,5 +51,10 @@ google_analytics: UA-149542574-1
 
 plugins:
   - jekyll-sitemap
-#  - jekyll-remote-theme
   - jekyll-seo-tag
+#  - jekyll-remote-theme
+
+# stuff on the repo but not on the final website
+exclude:
+  - LICENCE
+  - README.md

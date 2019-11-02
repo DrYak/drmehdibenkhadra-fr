@@ -13,7 +13,7 @@ order: 0
   plastique et maxillo-faciale, et doivent être réalisées
   dans un bloc opératoire.
 
-- Implantation de Biofibres (cheveux synthétiques).
+- Implantation de [Biofibres](https://www.biofibre.com/fr/) (cheveux synthétiques).
 
 - Dermopigmentation du cuir chevelu.
 
@@ -23,3 +23,5 @@ order: 0
   et moustache / barbe (dermopigmentation).
 
 Toutes mes interventions sans exception sont réalisées sous anesthésie locale
+
+*[FUE]: Follicular Unit Extraction - Extraction d'unités folliculaires

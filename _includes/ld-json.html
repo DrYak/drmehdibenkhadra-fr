@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Physician",
+	"name": "{{ site.title | default: site.author }}",
+	"description": "{{ page.description | default: site.description | strip}}",
+	"availableService": {
+		"@type": "MedicalProcedure",
+		"description": "Traitement de la calvitie, Greffe de cheveux par methode FUE, Implantation de Biofibre, Dermopigmentation du cuir chevelu, Stimulation du cuir chevelu, Reparation sourcils"
+	},
+	"isAcceptingNewPatients":"true",
+	"address": {{ site.address | unshift: typeheader | jsonify | replace: '{','{"@type":"PostalAddress",' }},
+	"telephone": "{{ site.phone }}",
+	"email": "{{ site.email }}",
+	"url":"https://drmehdibenkhadra.fr/",
+	"image":"https://drmehdibenkhadra.fr/img/intro-bg.png",
+	"logo":"https://drmehdibenkhadra.fr/img/intro-bg.png",
+	"photo":"https://drmehdibenkhadra.fr/img/header.jpg"
+}
+</script>

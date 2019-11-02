@@ -2,32 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Physician",
-      "name": "Dr. Mehdi Benkhadra, MD, PhD",
-      "description": "Traitement de la calvitie",
-      "availableService": {
-      "@type": "MedicalProcedure",
-      	"description": "Traitement de la calvitie, Greffe de cheveux par methode FUE, Implantation de Biofibre, Dermopigmentation du cuir chevelu, Stimulation du cuir chevelu, Reparation sourcils"
-      },
-      "isAcceptingNewPatients":"true",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "14 Rue du Cap Vert",
-        "postalCode": "21800",
-        "addressLocality": "Quertigny",
-        "addressCountry": "fr"
-      },
-      "telephone": "+33-9-80-45-98-14",
-      "email": "contact@drmehdibenkhadra.fr",
-      "url":"https://drmehdibenkhadra.fr/",
-      "image":"https://drmehdibenkhadra.fr/img/intro-bg.png",
-      "logo":"https://drmehdibenkhadra.fr/img/intro-bg.png",
-      "photo":"https://drmehdibenkhadra.fr/img/header.jpg"
-    }
-    </script>
+    {%- include ld-json.html -%}
     {%- seo -%}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -37,7 +12,7 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-    <link href="//fonts.googleapis.com/css?family=Balthazar|EB+Garamond|Montserrat&amp;display=swap" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Balthazar%7CEB+Garamond:400,400i,700,700i,700%7CMontserrat:400,700&amp;display=swap" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
