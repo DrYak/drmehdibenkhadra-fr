@@ -4,7 +4,7 @@ email: contact@drmehdibenkhadra.fr
 description: > # this means to ignore newlines until "url:"
   Traitement de la calvitie
   - Greffe de cheveux
-  - Dijon 
+  - Dijon
 url: "https://drmehdibenkhadra.fr" # the base hostname & protocol for your site, e.g. http://example.com
 # the subpath of your site, e.g. /blog
 baseurl: "/drmehdibenkhadra-fr"
@@ -46,8 +46,8 @@ permalink:  pretty
 collections:
   - sections
 
-# Google Analytics
-google_analytics: UA-149542574-1
+## Google Analytics
+#google_analytics: UA-149542574-1
 
 plugins:
   - jekyll-sitemap
